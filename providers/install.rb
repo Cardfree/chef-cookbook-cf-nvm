@@ -71,7 +71,7 @@ action :create do
   template '/etc/profile.d/nvm.sh' do
     source 'nvm.sh.erb'
     mode 0755
-    cookbook 'nvm'
+    cookbook 'cf_nvm'
     variables ({
       :nvm_dir => nvm_dir,
       :user_install => user_install
