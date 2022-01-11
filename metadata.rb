@@ -1,4 +1,4 @@
-name             "nvm"
+name             "cf_nvm"
 version          "0.1.7"
 maintainer       "Philip Hutchins"
 maintainer_email "flipture@gmail.com"
