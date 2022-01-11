@@ -92,7 +92,7 @@ action :create do
 
   # break FC021: Resource condition in provider may not behave as expected
   # silly thing because new_resource.version is dynamic not fixed
-  nvm_alias_default new_resource.version do
+  cf_nvm_alias_default new_resource.version do
     user chef_nvm_user
     group chef_nvm_group
     user_home user_home
