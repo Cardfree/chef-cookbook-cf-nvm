@@ -17,6 +17,9 @@
 # limitations under the License.
 #
 
+# Handling deprecation warnings
+unified_mode true
+
 actions :create
 default_action :create
 
